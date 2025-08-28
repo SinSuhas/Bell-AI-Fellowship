@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 import os
 
 # Configuration
-API_BASE_URL = os.getenv("API_BASE_URL","https://18.222.156.181:8000")
+API_BASE_URL = os.getenv("API_BASE_URL","http://18.222.156.181:8000")
 
 # Page configuration
 st.set_page_config(
