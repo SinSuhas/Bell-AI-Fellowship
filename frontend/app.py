@@ -5,7 +5,7 @@ from datetime import date, datetime, timedelta
 import plotly.express as px
 import plotly.graph_objects as go
 import os
-import dotenv
+
 # Configuration
 API_BASE_URL = os.getenv("API_BASE_URL","https://18.222.156.181:8000")
 
